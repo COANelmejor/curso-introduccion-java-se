@@ -91,7 +91,7 @@ public class DataTypes {
 
         // Implicit casting
         int i = 10;
-        long l1 = i;
+        long l1 = i; // warning: Local variable 'l1' is redundant
 
         System.out.println("i: " + i);
         System.out.println("l1: " + l1);
@@ -101,6 +101,6 @@ public class DataTypes {
         int i1 = (int) l2;
 
         System.out.println("l2: " + l2);
-
+        System.out.println("i1: " + i1);
     }
 }
