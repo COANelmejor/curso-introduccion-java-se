@@ -1,3 +1,5 @@
+// Class name must be the same as the file name
+             // UpperCamelCase
 public class NamingJava {
     public static void main(String[] args) {
 
@@ -20,8 +22,12 @@ public class NamingJava {
         int MAX_WIDTH = 9999;
         int MIN_WIDTH = 1;
 
-        // Lower camel case
+        // lowerCamelCase
+        // Is used for variable names
         String fullName = "Luis Diaz de Leon";
         int sizeInCentimeters = 26;
+
+        // Upper camel case
+
     }
 }
